@@ -3,13 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "kepler.gl": "2.5.5",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-palm": "3.2.2",
+    "react-scripts": "3.4.1",
+    "styled-components": "5.2.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,5 +36,22 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "overrides": {
+    "@deck.gl/aggregation-layers": "8.2.0",
+    "@deck.gl/core": "8.2.0",
+    "@deck.gl/extensions": "8.2.0",
+    "@deck.gl/geo-layers": "8.2.0",
+    "@deck.gl/layers": "8.2.0",
+    "@deck.gl/mesh-layers": "8.2.0",
+    "@deck.gl/react": "8.2.0",
+    "deck.gl": "8.2.0",
+    "@luma.gl/shadertools": "8.2.0",
+    "@luma.gl/core": "8.2.0",
+    "@luma.gl/experimental": "8.2.0",
+    "@luma.gl/constants": "8.2.0",
+    "@luma.gl/engine": "8.2.0",
+    "@luma.gl/gltools": "8.2.0",
+    "@luma.gl/webgl": "8.2.0"
   }
 }
