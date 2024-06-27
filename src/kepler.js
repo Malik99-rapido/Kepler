@@ -6,7 +6,7 @@ const Kepler = () => {
         <KeplerGl
                 id="map"
                 width={window.innerWidth}
-                mapboxApiAccessToken={"you rtoken here "}
+                mapboxApiAccessToken={process.env.REACT_APP_MAP_BOX_TOKEN}
                 height={window.innerHeight}
             />
     )
